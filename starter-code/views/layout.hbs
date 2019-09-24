@@ -1,0 +1,28 @@
+<!-- layout.hbs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Layout</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a href="/"><img id="logo" src="/images/logo.png"></a>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li class="dropdown">
+      <a href="/photoGallery" class="dropbtn">Photo Gallery</a>
+    <div class="dropdown-content">
+      <a href="/photoGallery/plates" class="dropdown-content-titles">Plates</a>
+      <a href="/photoGallery/bowls" class="dropdown-content-titles">Bowls</a>
+      <a href="/photoGallery/vases" class="dropdown-content-titles">Vases</a>
+    </div>
+    </li>
+  </ul>
+
+  {{{ body }}}
+</body>
+</html>

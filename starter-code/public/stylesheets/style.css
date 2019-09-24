@@ -1,0 +1,153 @@
+html, body {
+    font-family: 'League Spartan', bold;
+    background-color: white; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #15100d;
+    font-size: 18px; 
+  }
+  
+  li {
+    float: left;
+  }
+
+  img {
+      width: 100px; 
+      height: 100px;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white; 
+    text-align: center;
+    align-items: center; 
+    justify-content: center; 
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color:#f1835c; 
+    color:  white; 
+  }
+
+ .dropdown-content-titles:hover {
+    color: #f1835c; 
+    }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white; 
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color:#15100d;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: white;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .index-img{
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%; 
+  }
+
+  .about-div {
+    background-image: url("/images/pottery-tools.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 380px 632px; 
+    width: 100%; 
+    padding-top: 120px; 
+    padding-bottom: 120px; 
+  }
+
+  p {
+    text-align: center;
+    margin-bottom: 30px; 
+    font-size: 30px;
+    animation: wave-animation 0.3s infinite;
+  }
+
+  @keyframes wave-animation {
+    0%,
+    100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(20deg);
+    }
+    75% {
+      transform: rotate(-15deg);
+    }
+  }
+
+  .about-title {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 30px; 
+    margin-right: 0; 
+    text-align: center; 
+  }
+
+  .about {
+      margin-left: 20%; 
+      margin-right: 20%; 
+  }
+
+  .about-paragraph {
+    font-family: 'Lato', sans-serif;
+    margin-left: 10px; 
+    text-align: justify; 
+  }
+
+  .about-signature {
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder; 
+    text-align: right;  
+    margin-top: 100px; 
+  }
+
+  .pottery-img {
+    float: left;
+    width: 32.5%;
+    padding: 5px;
+    height: 32.5%;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* .footer-li:hover ~ .footer-li p {
+    animation: wave-animation 0.3s infinite;
+  }
+
+  below is just for demo styling */
+
+  
